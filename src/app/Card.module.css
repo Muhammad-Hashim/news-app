@@ -1,0 +1,89 @@
+.main {
+
+    display: flex;
+    width: 335px;
+    height: 466px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    background-color: #ffffff;
+}
+
+.image {
+    display: flex;
+    width: 303px;
+    height: 172px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 4px 4px 0px 0px;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.info {
+    height: 49px;
+}
+
+.title {
+    align-self: stretch;
+    color: var(--neutral-800, #191D23);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 20px;
+    overflow: hidden;
+
+
+}
+
+.author {
+    height: 19px;
+    align-self: stretch;
+    color: var(--neutral-800, #191D23);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.footer p {
+    height: 113px;
+    align-self: stretch;
+    overflow: hidden;
+    color: var(--neutral-800, #191D23);
+    text-overflow: ellipsis;
+    whitespace: nowrap;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button {
+    display: flex;
+    height: 44px;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex: 1 0 0;
+    border-radius: 4px;
+    background: var(--success-green-700, #047857);
+    width: 280px;
+    color: var(--shades-white, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+outline: #ffffff;
+font-weight: 300;
+line-height: 20px; /* 125% */
+}
